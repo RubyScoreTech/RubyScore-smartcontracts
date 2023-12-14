@@ -1,0 +1,52 @@
+{
+  "address": "0xe10Add2ad591A7AC3CA46788a06290De017b9fB4",
+  "abi": [
+    {
+      "stateMutability": "payable",
+      "type": "fallback"
+    },
+    {
+      "inputs": [],
+      "name": "vote",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x91da5b6b2cb508b8490e0028aad13e77a15ebee7a999f832044727a0913e912b",
+  "receipt": {
+    "to": null,
+    "from": "0x381c031bAA5995D0Cc52386508050Ac947780815",
+    "contractAddress": "0xe10Add2ad591A7AC3CA46788a06290De017b9fB4",
+    "transactionIndex": 1,
+    "gasUsed": "69441",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0xcacc864a1432e708f1af1e16af1398006c77a5070721c43b0c370d50ef37a886",
+    "transactionHash": "0x91da5b6b2cb508b8490e0028aad13e77a15ebee7a999f832044727a0913e912b",
+    "logs": [],
+    "blockNumber": 1259746,
+    "cumulativeGasUsed": "179450",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "7768d8fa98260ac70a49197e283f38a4",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"stateMutability\":\"payable\",\"type\":\"fallback\"},{\"inputs\":[],\"name\":\"vote\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Rubyscore_Vote.sol\":\"Rubyscore_Vote\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/Rubyscore_Vote.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity 0.8.19;\\n\\ncontract Rubyscore_Vote {\\n    fallback() external payable {}\\n\\n    function vote() external payable {}\\n}\\n\",\"keccak256\":\"0xa2bf98ccb1d6315756640404e79f7be959c204c9b683211ccfba513706dbe6ff\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50604a80601d6000396000f3fe60806040526004361060125760003560e01c5b00fea2646970667358221220e9831de707618ac65b5d7be3d8d69894ba8e4d9f0e66f373174e19194107b93764736f6c63430008130033",
+  "deployedBytecode": "0x60806040526004361060125760003560e01c5b00fea2646970667358221220e9831de707618ac65b5d7be3d8d69894ba8e4d9f0e66f373174e19194107b93764736f6c63430008130033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [],
+    "types": null
+  }
+}

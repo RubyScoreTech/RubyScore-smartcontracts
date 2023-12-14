@@ -1,0 +1,23 @@
+# Hardhat files
+cache
+artifacts
+typechain
+typechain-types
+
+# zksync artifacts
+artifacts-zk
+cache-zk
+
+# Tests
+coverage
+coverage.json
+
+# Lib
+node_modules
+
+# IDE
+.vscode
+.DS_Store
+
+# Package manager
+yarn-error.log
